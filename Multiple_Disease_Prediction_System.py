@@ -17,7 +17,7 @@ Scaler5=pickle.load(open("Parkinsons_Disease_Scale.sav","rb"))
 
 
 with st.sidebar:
-    selected=option_menu("Multiple Disease Prediction System ",["Breast Cancer Prediction","Diabetes Prediction","Heart Disease Prediction","Kidney Disease Prediction","Liver Disease Prediction","Parkinsons Disease Prediction"],default_index=0)
+    selected=option_menu("Multiple Disease Prediction System ",["Breast Cancer Prediction","Diabetes Prediction","Heart Disease Prediction","Liver Disease Prediction","Parkinsons Disease Prediction"],default_index=0)
 
 if (selected=="Breast Cancer Prediction"):
     st.title("Breast Cancer Prediction Using ML")
