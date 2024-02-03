@@ -232,33 +232,33 @@ if (selected=="Parkinsons Disease Prediction"):
     col1,col2=st.columns(2)
     
     with col1:
-        e1=st.text_input("MDVP:Fo(Hz)")
+        e1=st.text_input("MDVP_Fo(Hz)")
     with col2:
-        e2=st.text_input("MDVP:Fhi(Hz)")
+        e2=st.text_input("MDVP_Fhi(Hz)")
     with col1:
-        e3=st.text_input("MDVP:Flo(Hz)")
+        e3=st.text_input("MDVP_Flo(Hz)")
     with col2:
-        e4=st.text_input("MDVP:Jitter(%)")
+        e4=st.text_input("MDVP_Jitter(%)")
     with col1:
-        e5=st.text_input("MDVP:Jitter(Abs)")
+        e5=st.text_input("MDVP_Jitter(Abs)")
     with col2:
-        e6=st.text_input("MDVP:RAP")
+        e6=st.text_input("MDVP_RAP")
     with col1:
-        e7=st.text_input("MDVP:PPQ")
+        e7=st.text_input("MDVP_PPQ")
     with col2:
-        e8=st.text_input("Jitter:DDP")
+        e8=st.text_input("Jitter_DDP")
     with col1:
-        e9=st.text_input("MDVP:Shimmer")
+        e9=st.text_input("MDVP_Shimmer")
     with col2:
-        e10=st.text_input("MDVP:Shimmer(dB)")
+        e10=st.text_input("MDVP_Shimmer(dB)")
     with col1:
-        e11=st.text_input("Shimmer:APQ3")
+        e11=st.text_input("Shimmer_APQ3")
     with col2:
-        e12=st.text_input("Shimmer:APQ5")
+        e12=st.text_input("Shimmer_APQ5")
     with col1:
-        e13=st.text_input("MDVP:APQ")
+        e13=st.text_input("MDVP_APQ")
     with col2:
-        e14=st.text_input("Shimmer:DDA")
+        e14=st.text_input("Shimmer_DDA")
     with col1:
         e15=st.text_input("NHR")
     with col2:
