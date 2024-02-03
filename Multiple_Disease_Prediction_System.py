@@ -13,7 +13,7 @@ Scaler1=pickle.load(open("Breast_Cancer_Scale.sav","rb"))
 Scaler2=pickle.load(open("Diabetes_Scale.sav","rb"))
 Scaler3=pickle.load(open("Heart_Disease_Scale.sav","rb"))
 Scaler4=pickle.load(open("Liver_Disease_Scale.sav","rb"))
-Scaler5=pickle.load(open("Parkinsons_Scale.sav","rb"))
+Scaler5=pickle.load(open("Parkinsons_Disease_Scale.sav","rb"))
 
 
 with st.sidebar:
